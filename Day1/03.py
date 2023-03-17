@@ -10,4 +10,4 @@ print(type({9.8, "string?", 2.7}))    # Set, store only unique items
 print(type((9.8, True, 2.7)))    # Tuple, immutable, ordered
 
 # 2. Find an Euclidian distance between (2, 3) and (10, 8)
-print(((2 - 10)**2 + (3 - 8)**2)**-2)
+print(((2 - 10) ** 2 + (3 - 8) ** 2) ** 0.5)
