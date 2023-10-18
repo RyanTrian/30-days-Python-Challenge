@@ -19,7 +19,7 @@
 # lst = ['Asabeneh', 250, True, {'country':'Finland', 'city':'Helsinki'}] # list containing different data types
 # print('different data types:', lst)
 
-# ------------------------------ Unpacking List ------------------------------ #
+# # ------------------------------ Unpacking List ------------------------------ #
 # First Example
 # fruits = ['banana', 'orange', 'mango', 'lemon','lime','apple']
 # first_fruit, second_fruit, third_fruit, *rest = fruits 
@@ -66,7 +66,7 @@
 # does_exist = 'lime' in fruits
 # print(does_exist)  # False
 
-# -------------------------- Adding Items to a List -------------------------- #
+# # -------------------------- Adding Items to a List -------------------------- #
 # syntax
 # lst = list()
 # lst.append(item)
@@ -77,19 +77,19 @@
 # fruits.append('lime')   # ['banana', 'orange', 'mango', 'lemon', 'apple', 'lime']
 # print(fruits)
 
-# ------------------------ Inserting Items into a List ----------------------- #
+# # ------------------------ Inserting Items into a List ----------------------- #
 # fruits = ['banana', 'orange', 'mango', 'lemon']
 # fruits.insert(2, 'apple') # insert apple between orange and mango
 # print(fruits)           # ['banana', 'orange', 'apple', 'mango', 'lemon']
 # fruits.insert(3, 'lime')   # ['banana', 'orange', 'apple', 'lime', 'mango', 'lemon']
 # print(fruits)
 
-# ------------------------ Removing Items from a List ------------------------ #
+# # ------------------------ Removing Items from a List ------------------------ #
 # syntax
 # lst = ['item1', 'item2']
 # lst.remove(item)
 
-# ------------------------- Removing Items Using Pop ------------------------- #
+# # ------------------------- Removing Items Using Pop ------------------------- #
 # The pop() method removes the specified index, (or the last item if index is not specified):
 
 # syntax
@@ -98,7 +98,7 @@
 # lst.pop()       # last item
 # lst.pop(index)
 
-# ------------------------- Removing Items Using Del ------------------------- #
+# # ------------------------- Removing Items Using Del ------------------------- #
 # The del keyword removes the specified index and it can also be used to delete items within index range. It can also delete the list completely
 
 # syntax
@@ -106,21 +106,21 @@
 # del lst[index] # only a single item
 # del lst        # to delete the list completely
 
-# ---------------------------- Clearing List Items --------------------------- #
+# # ---------------------------- Clearing List Items --------------------------- #
 # The clear() method empties the list:
 
 # syntax
 # lst = ['item1', 'item2']
 # lst.clear()
 
-# ------------------------------ Copying a List ------------------------------ #
+# # ------------------------------ Copying a List ------------------------------ #
 # It is possible to copy a list by reassigning it to a new variable in the following way: list2 = list1. Now, list2 is a *reference* of list1, any changes we make in list2 will also modify the original, list1. But there are lots of case in which we do not like to modify the original instead we like to have a different copy. One of way of avoiding the problem above is using copy().
 
 # syntax
 # lst = ['item1', 'item2']
 # lst_copy = lst.copy()
 
-# ------------------------------- Joining Lists ------------------------------ #
+# # ------------------------------- Joining Lists ------------------------------ #
 # There are several ways to join, or concatenate, two or more lists in Python.
 
 # Plus Operator (+)
@@ -135,28 +135,28 @@
 # list2 = ['item3', 'item4', 'item5']
 # list1.extend(list2)
 
-# ------------------------- Counting Items in a List ------------------------- #
+# # ------------------------- Counting Items in a List ------------------------- #
 # The count() method returns the number of times an item appears in a list:
 
 # syntax
 # lst = ['item1', 'item2']
 # lst.count(item)
 
-# ------------------------- Finding Index of an Item ------------------------- #
+# # ------------------------- Finding Index of an Item ------------------------- #
 # The index() method returns the index of an item in the list:
 
 # syntax
 # lst = ['item1', 'item2']
 # lst.index(item)
 
-# ----------------------------- Reversing a List ----------------------------- #
+# # ----------------------------- Reversing a List ----------------------------- #
 # The reverse() method reverses the order of a list in place while [::-1] makes a copy
 
 # syntax
 # lst = ['item1', 'item2']
 # lst.reverse()
 
-# ---------------------------- Sorting List Items ---------------------------- #
+# # ---------------------------- Sorting List Items ---------------------------- #
 # To sort lists we can use sort() method or sorted() built-in functions. The sort() method reorders the list items in ascending order and modifies the original list. If an argument of sort() method reverse is equal to true, it will arrange the list in descending order.
 
 # sort(): this method modifies the original list
